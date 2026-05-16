@@ -6,11 +6,10 @@ int main ()
 
     printf("contamdo numeros pares ate %d:\n", limite);
 
-    for ( int i = 0 ; i <= limite ; i++)
+    for ( int i = 0 ; i <= limite ; i+= 2)
     {
-        if (i % 2 == 0)
-        {
-            printf("%d\n",i);
-        }
+        
+        printf("%d\n",i);
+
     }
 }
